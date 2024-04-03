@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
   <head>
     <meta charset="UTF-8" />
-    <title>XpCheng的知识库</title>
+    <title>XpChengBlog</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Description" />
     <meta
@@ -20,12 +20,11 @@
       <a href="http://localhost:3000">XpCheng的知识库</a>
     </nav>
     <div id="app"></div>
-    <!-- Docsify v4 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script>
       window.$docsify = {
-        name: "XpCheng的知识库",
-        repo: "https://github.com/X-pCheng/knowledge",
+        name: "XpChengBlog",
+        // repo: "https://github.com/X-pCheng/knowledge",
+        repo: "",
         search: {
           paths: "auto",
           placeholder: "搜索",
@@ -41,7 +40,8 @@
 
         loadNavbar: true,
         loadSidebar: true, // 加载自定义侧边栏
-        maxLevel: 2, // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
+        coverpage: true,
+        maxLevel: 5, // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
         subMaxLevel: 4, // 生成目录的最大层级
         mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
         alias: {
