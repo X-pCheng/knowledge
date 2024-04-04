@@ -1,20 +1,36 @@
-- <strong><span style="font-size:20px">Application</span></strong>
-  - [systemd 安装与使用](linux/systemd_install_and_service_exmaple.md)
-- <strong><span style="font-size:20px">Linux</span></strong>
+- <strong><span style="font-size:18px">Application</span></strong>
+  - [Affine](application/Affine.md)
+  - [Atheos](application/Atheos.md)
+    - [Atheos 中文配置映射](application/atheos_lang_cn_map.md)
+  - [Clickhouse](application/clickhouse.md)
+  - [databasir](application/databasir.md)
+  - [Docker](application/Docker.md)
+  - Etherpad
+    - [Etherpad](application/etherpad/Etherpad.md)
+    - [Etherpad_manage](application/etherpad/Etherpad_manage.md)
+    - [Etherpad 默认 Dockerfile](application/etherpad/Etherpad默认Dockerfile.md)
+    - [Etherpad 自定义 Dockerfile](application/etherpad/Etherpad自定义Dockerfile.md)
+    - [Etherpad 自定义配置](application/etherpad/Etherpad自定义配置.md)
+  - [MySQL](application/MySQL.md)
+    - [MySQL 配置与操作](application/MySQL配置与操作.md)
+  - [Postgres](application/Postgres.md)
+  - [Redis](application/Redis.md)
+
+- <strong><span style="font-size:18px">Linux</span></strong>
   - [systemd 安装与使用](linux/systemd_install_and_service_exmaple.md)
   - [systemd 基本命令](linux/systemd_command.md)
   - [rsync 实现备份](linux/rsync_backup.md)
-- <strong><span style="font-size:20px">Windows</span></strong>
+- <strong><span style="font-size:18px">Windows</span></strong>
   - [WSL 基础](windows/wsl_base.md)
   - [WSL 中的 systemd](windows/systemd_in_wsl.md)
   - [Win11 右键显示更多选项设置](windows/show_more_in_win11_right_click.md)
-- <strong><span style="font-size:20px">FanRuan</span></strong>
+- <strong><span style="font-size:18px">FanRuan</span></strong>
   - [重置管理员](fanruan/reset_admmin.md)
   - [重置登录页](fanruan/reset_login_page.md)
   - [BI5 集群切换单机](fanruan/BI5_cluster2single.md)
   - [FR-JS](fanruan/FR-JS.md)
-- <strong><span style="font-size:20px">Book</span></strong>
-  - [Shell 入门](books/shell_primary.md)
+- <strong><span style="font-size:18px">Book</span></strong>
+  - Shell 入门
     - [Shell 概述](books/Shell入门/Shell概述.md)
     - [Shell 脚本入门](books/Shell入门/Shell脚本入门.md)
     - [Shell 中的变量](books/Shell入门/Shell中的变量.md)

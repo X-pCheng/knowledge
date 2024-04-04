@@ -5,18 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta charset="UTF-8" />
     <!-- 导入Docsify样式 -->
+    <title>XpChengBlog</title>
+    <link rel="icon" href="_media/logo.svg" />
     <link
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"
     />
-    <!-- 在这里添加自定义的CSS样式 -->
-    <style>
-      /* 调整根节点目录字体大小 */
-      .sidebar-nav > ul > li > a:first-child {
-        font-size: 16px; /* 修改这里的值来调整字体大小 */
-        font-weight: 800;
-      }
-    </style>
     <link
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"
@@ -33,14 +27,14 @@
         // 禁用相对路径（默认值）
         relativePath: false,
 
-        repo: "https://github.com/X-pCheng/knowledge",
+        // repo: "https://github.com/X-pCheng/knowledge",
         // logo: '/_media/logo.svg',
         // coverpage: true,
         loadNavbar: true,
         loadSidebar: true, // 加载自定义侧边栏
         // autoHeader: true,
-        maxLevel: 3, // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
-        subMaxLevel: 3, // 生成目录的最大层级
+        maxLevel: 5, // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
+        subMaxLevel: 0, // 生成目录的最大层级
         mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
         alias: {
           // 定义路由别名，可以更自由的定义路由规则。 支持正则
@@ -78,6 +72,10 @@
           tabComments: true, // default
           tabHeadings: true, // default
         },
+        "page-toc": {
+          tocMaxLevel: 3,
+          target: "h1, h2, h3",
+        },
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
@@ -99,6 +97,7 @@
 
     <!-- emoji -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
     <!-- 侧边栏目录折叠 -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 
@@ -122,5 +121,8 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
     <!-- use this if you are not hosting the file yourself -->
     <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
+
+    <!-- 文章内导航 -->
+    <script src="//unpkg.com/docsify-page-toc/dist/docsify-page-toc.js"></script>
   </body>
 </html>

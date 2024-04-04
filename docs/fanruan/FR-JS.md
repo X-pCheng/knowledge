@@ -89,9 +89,8 @@ if (base.length != 0) {
 
 # FR-结合复选框做单选&全选
 
-<!-- ![示例](../_attch_file/image.png) -->
 
-![alt text](../_attch_file/image.png)
+![alt text](../_attch_file/fr-checkbox-js.png)
 
 ## 初始化
 
@@ -218,7 +217,7 @@ if (this.getValue()) {
 
 # FR-通过 display 属性实现折叠树
 
-![alt text](../_attch_file/Snipaste_2024-04-04_15-37-57.png)
+![alt text](../_attch_file/fr-collapse-js.png)
 
 ```javascript
 // js+display属性实现报表折叠树（针对耗时长报表或数据分析模式无法实现，条件属性实现每次查询很久）
