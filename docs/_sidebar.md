@@ -1,3 +1,4 @@
+- <strong><span style="font-size:18px">[小问题]</span></strong>(main/issue_handle_record.md)
 - <strong><span style="font-size:18px">Linux</span></strong>
   - [systemd 安装与使用](main/systemd_install_and_service_exmaple.md)
   - [systemd 基本命令](main/systemd_command.md)
@@ -6,13 +7,13 @@
   - [WSL 基础](main/wsl_base.md)
   - [WSL 中的 systemd](main/systemd_in_wsl.md)
   - [Win11 右键显示更多选项设置](main/show_more_in_win11_right_click.md)
-- <strong><span style="font-size:18px">FanRuan</span></strong>
+- <strong><span style="font-size:18px">帆软相关</span></strong>
   - [FRBI 部署相关](main/FRBI.md)
   - [重置管理员](main/reset_admmin.md)
   - [重置登录页](main/reset_login_page.md)
   - [BI5 集群切换单机](main/BI5_cluster2single.md)
   - [FR-JS](main/FR-JS.md)
-- <strong><span style="font-size:18px">Book</span></strong>
+- <strong><span style="font-size:18px">书籍资源</span></strong>
   - Shell 入门
     - [Shell 概述](main/Shell入门/Shell概述.md)
     - [Shell 脚本入门](main/Shell入门/Shell脚本入门.md)
@@ -25,7 +26,7 @@
     - [Shell 函数](main/Shell入门/Shell函数)
     - [Shell 工具(重要)](<main/Shell入门/Shell工具(重要).md>)
   - [快乐的 Linux 命令行](<main/快乐的 Linux 命令行.md>)
-- <strong><span style="font-size:18px">Application</span></strong>
+- <strong><span style="font-size:18px">应用相关</span></strong>
   - [Affine](main/Affine.md)
   - [appflowy](main/appflowy.md)
   - [Atheos](main/Atheos.md)
