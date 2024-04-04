@@ -102,7 +102,7 @@ JKS 密钥库使用专用格式。建议使用 "keytool -importkeystore -srckeys
 
 取消注释，然后修改为如下内容（之前未进行配置可以直接在文档中新增）：
 
-```powershell
+```xml
 <Connector port="8443" protocol="org.apache.coyote.http11.Http11Protocol"
            maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
            clientAuth="false" sslProtocol="TLS" 
@@ -126,7 +126,7 @@ JKS 密钥库使用专用格式。建议使用 "keytool -importkeystore -srckeys
 以上配置完成重启`tomcat`，用`https`访问成功即说明完成配置。
 
 ## 其他
---
+--------------
 
 生成`keyestore`文件信息，在`cmd`中可以通过以下命来查看密钥库的内容：
 
