@@ -21,7 +21,7 @@ apt install systemd
 使用文本编辑器 (如 vim) 在`/etc/systemd/system`目录下创建一个`frps.service`文件，用于配置 frps 服务。
 
 ```bash
-$ sudo vim /etc/systemd/system/frps.service
+sudo vim /etc/systemd/system/frps.service
 ```
 
 写入内容
@@ -56,7 +56,7 @@ systemctl daemon-reload
 
 # 设置开机自启动
 
-```Plain&#x20;Text
+```bash
 sudo systemctl enable frps
 ```
 
