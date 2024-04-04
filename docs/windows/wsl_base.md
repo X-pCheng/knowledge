@@ -1,4 +1,4 @@
-#  安装
+# 安装
 
 ```PowerShell
 wsl --install
@@ -6,29 +6,29 @@ wsl --install
 
 安装 WSL 和 Linux 的默认 Ubuntu 发行版。 [了解详细信息](https://learn.microsoft.com/zh-cn/windows/wsl/install)。
 
- 还可以使用此命令通过运行 `wsl --install <Distribution Name>` 来安装其他 Linux 发行版。
+还可以使用此命令通过运行 `wsl --install <Distribution Name>` 来安装其他 Linux 发行版。
 
- 若要获取发行版名称的有效列表，请运行 `wsl --list --online`。
+若要获取发行版名称的有效列表，请运行 `wsl --list --online`。
 
 选项包括：
 
-* `--distribution`：指定要安装的 Linux 发行版。 可以通过运行 `wsl --list --online` 来查找可用的发行版。
-* `--no-launch`：安装 Linux 发行版，但不自动启动它。
-* `--web-download`：通过联机渠道安装，而不是使用 Microsoft Store 安装。
+- `--distribution`：指定要安装的 Linux 发行版。 可以通过运行 `wsl --list --online` 来查找可用的发行版。
+- `--no-launch`：安装 Linux 发行版，但不自动启动它。
+- `--web-download`：通过联机渠道安装，而不是使用 Microsoft Store 安装。
 
 未安装 WSL 时，选项包括：
 
-* `--inbox`：使用 Windows 组件（而不是 Microsoft Store）安装 WSL。 *（WSL 更新将通过 Windows 更新接收，而不是通过 Microsoft Store 中推送的可用更新来接收）。*
-* `--enable-wsl1`：在安装 Microsoft Store 版本的 WSL 的过程中也启用“适用于 Linux 的 Windows 子系统”可选组件，从而启用 WSL 1。
-* `--no-distribution`：安装 WSL 时不安装发行版。
+- `--inbox`：使用 Windows 组件（而不是 Microsoft Store）安装 WSL。 _（WSL 更新将通过 Windows 更新接收，而不是通过 Microsoft Store 中推送的可用更新来接收）。_
+- `--enable-wsl1`：在安装 Microsoft Store 版本的 WSL 的过程中也启用“适用于 Linux 的 Windows 子系统”可选组件，从而启用 WSL 1。
+- `--no-distribution`：安装 WSL 时不安装发行版。
 
-#  修改root密码
+# 修改 root 密码
 
 ```PowerShell
 sudo passwd root
 ```
 
-#  列出可用的 Linux 发行版
+# 列出可用的 Linux 发行版
 
 ```PowerShell
 wsl --list --online
@@ -36,7 +36,7 @@ wsl --list --online
 
 查看可通过在线商店获得的 Linux 发行版列表。 此命令也可输入为：`wsl -l -o`。
 
-#  列出已安装的 Linux 发行版
+# 列出已安装的 Linux 发行版
 
 ```PowerShell
 wsl --list --verbose
@@ -44,7 +44,7 @@ wsl --list --verbose
 
 查看安装在 Windows 计算机上的 Linux 发行版列表，其中包括状态（发行版是正在运行还是已停止）和运行发行版的 WSL 版本（WSL 1 或 WSL 2）。 [比较 WSL 1 和 WSL 2](https://learn.microsoft.com/zh-cn/windows/wsl/compare-versions)。 此命令也可输入为：`wsl -l -v`。 可与 list 命令一起使用的其他选项包括：`--all`（列出所有发行版）、`--running`（仅列出当前正在运行的发行版）或 `--quiet`（仅显示发行版名称）。
 
-#  将 WSL 版本设置为 1 或 2
+# 将 WSL 版本设置为 1 或 2
 
 ```PowerShell
 wsl --set-version <distribution name> <versionNumber>
@@ -52,7 +52,7 @@ wsl --set-version <distribution name> <versionNumber>
 
 若要指定运行 Linux 发行版的 WSL 版本（1 或 2），请将 `<distribution name>` 替换为发行版的名称，并将 `<versionNumber>` 替换为 1 或 2。 [比较 WSL 1 和 WSL 2](https://learn.microsoft.com/zh-cn/windows/wsl/compare-versions)。 WSL 2 仅在 Windows 11 或 Windows 10 版本 1903、内部版本 18362 或更高版本中可用。
 
-#  设置默认 WSL 版本
+# 设置默认 WSL 版本
 
 ```PowerShell
 wsl --set-default-version <Version>
@@ -60,7 +60,7 @@ wsl --set-default-version <Version>
 
 若要将默认版本设置为 WSL 1 或 WSL 2，请将 `<Version>` 替换为数字 1 或 2，表示对于安装新的 Linux 发行版，你希望默认使用哪个版本的 WSL。 例如，`wsl --set-default-version 2`。 [比较 WSL 1 和 WSL 2](https://learn.microsoft.com/zh-cn/windows/wsl/compare-versions)。 WSL 2 仅在 Windows 11 或 Windows 10 版本 1903、内部版本 18362 或更高版本中可用。
 
-#  设置默认 Linux 发行版
+# 设置默认 Linux 发行版
 
 ```PowerShell
 wsl --set-default <Distribution Name>
@@ -68,7 +68,7 @@ wsl --set-default <Distribution Name>
 
 若要设置 WSL 命令将用于运行的默认 Linux 发行版，请将 `<Distribution Name>` 替换为你首选的 Linux 发行版的名称。
 
-#  将目录更改为主页
+# 将目录更改为主页
 
 ```PowerShell
 wsl ~
@@ -76,7 +76,7 @@ wsl ~
 
 `~` 可与 wsl 一起使用，以在用户的主目录中启动。 若要在 WSL 命令提示符中从任何目录跳回到主目录，可使用命令 `cd ~`。
 
-#  通过 PowerShell 或 CMD 运行特定的 Linux 发行版
+# 通过 PowerShell 或 CMD 运行特定的 Linux 发行版
 
 ```PowerShell
 wsl --distribution <Distribution Name> --user <User Name>
@@ -84,7 +84,7 @@ wsl --distribution <Distribution Name> --user <User Name>
 
 若要通过特定用户运行特定 Linux 发行版，请将 `<Distribution Name>` 替换为你首选的 Linux 发行版的名称（例如 Debian），将 `<User Name>` 替换为现有用户的名称（例如 root）。 如果 WSL 发行版中不存在该用户，你将会收到一个错误。 若要输出当前用户名，请使用 `whoami` 命令。
 
-#  更新 WSL
+# 更新 WSL
 
 ```PowerShell
 wsl --update
@@ -92,9 +92,9 @@ wsl --update
 
 将 WSL 版本更新到最新版本。 选项包括：
 
-* `--web-download`：从 GitHub 而不是 Microsoft Store 下载最新更新。
+- `--web-download`：从 GitHub 而不是 Microsoft Store 下载最新更新。
 
-#  检查 WSL 状态
+# 检查 WSL 状态
 
 ```PowerShell
 wsl --status
@@ -102,7 +102,7 @@ wsl --status
 
 查看有关 WSL 配置的常规信息，例如默认发行版类型、默认发行版和内核版本。
 
-#  检查 WSL 版本
+# 检查 WSL 版本
 
 ```PowerShell
 wsl --version
@@ -110,7 +110,7 @@ wsl --version
 
 检查有关 WSL 及其组件的版本信息。
 
-#  Help 命令
+# Help 命令
 
 ```PowerShell
 wsl --help
@@ -118,7 +118,7 @@ wsl --help
 
 查看 WSL 中可用的选项和命令列表。
 
-#  以特定用户的身份运行
+# 以特定用户的身份运行
 
 ```PowerShell
 wsl -u <Username>`, `wsl --user <Username>
@@ -126,7 +126,7 @@ wsl -u <Username>`, `wsl --user <Username>
 
 若要以指定用户身份运行 WSL，请将 `<Username>` 替换为 WSL 发行版中存在的用户名。
 
-#  更改发行版的默认用户
+# 更改发行版的默认用户
 
 ```PowerShell
 <DistributionName> config --default-user <Username>
@@ -144,7 +144,7 @@ wsl -u <Username>`, `wsl --user <Username>
 
 此命令不适用于导入的发行版，因为这些发行版没有可执行启动器。 可以改为使用 `/etc/wsl.conf` 文件来更改导入的发行版的默认用户。 请参阅[高级设置配置](https://learn.microsoft.com/zh-cn/windows/wsl/wsl-config#user-settings)文档中的“自动装载”选项。
 
-#  关闭
+# 关闭
 
 ```PowerShell
 wsl --shutdown
@@ -152,7 +152,7 @@ wsl --shutdown
 
 立即终止所有正在运行的发行版和 WSL 2 轻量级实用工具虚拟机。 在需要重启 WSL 2 虚拟机环境的情形下，例如[更改内存使用限制](https://learn.microsoft.com/zh-cn/windows/wsl/disk-space)或更改 [.wslconfig 文件](https://learn.microsoft.com/zh-cn/windows/wsl/manage#)，可能必须使用此命令。
 
-#  Terminate
+# Terminate
 
 ```PowerShell
 wsl --terminate <Distribution Name>
@@ -160,12 +160,12 @@ wsl --terminate <Distribution Name>
 
 若要终止指定的发行版或阻止其运行，请将 `<Distribution Name>` 替换为目标发行版的名称。
 
-#  标识 IP 地址
+# 标识 IP 地址
 
-* `wsl hostname -i` 标识通过 WSL 2 安装的 Linux 分发版 IP 地址（WSL 2 VM 地址）
-* `cat /etc/resolv.conf` 表示从 WSL 2 看到的 WINDOWS 计算机的 IP 地址 (WSL 2 VM)
+- `wsl hostname -i` 标识通过 WSL 2 安装的 Linux 分发版 IP 地址（WSL 2 VM 地址）
+- `cat /etc/resolv.conf` 表示从 WSL 2 看到的 WINDOWS 计算机的 IP 地址 (WSL 2 VM)
 
-#  导入和导出发行版
+# 导入和导出发行版
 
 ```PowerShell
 wsl --export <Distribution Name> <FileName>
@@ -177,10 +177,10 @@ wsl --import <Distribution Name> <InstallLocation> <FileName>
 
 将指定 tar 文件导入和导出为新的发行版。 在标准输入中，文件名可以是 -。 选项包括：
 
-* `--vhd`：指定导入/导出发行版应为 .vhdx 文件，而不是 tar 文件
-* `--version`：（仅导入）指定将发行版导入为 WSL 1 还是 WSL 2 发行版
+- `--vhd`：指定导入/导出发行版应为 .vhdx 文件，而不是 tar 文件
+- `--version`：（仅导入）指定将发行版导入为 WSL 1 还是 WSL 2 发行版
 
-#  就地导入发行版
+# 就地导入发行版
 
 ```PowerShell
 wsl --import-in-place <Distribution Name> <FileName>
@@ -188,7 +188,7 @@ wsl --import-in-place <Distribution Name> <FileName>
 
 将指定的 .vhdx 文件导入为新的发行版。 虚拟硬盘必须采用 ext4 文件系统类型格式。
 
-#  注销或卸载 Linux 发行版
+# 注销或卸载 Linux 发行版
 
 尽管可以通过 Microsoft Store 安装 Linux 发行版，但无法通过 Store 将其卸载。
 
@@ -202,7 +202,7 @@ wsl --unregister <DistributionName>
 
 还可以像卸载任何其他应用商店应用程序一样卸载 Windows 计算机上的 Linux 发行版应用。 若要重新安装，请在 Microsoft Store 中找到该发行版，然后选择“启动”。
 
-#  装载磁盘或设备
+# 装载磁盘或设备
 
 ```PowerShell
 wsl --mount <DiskPath>
@@ -210,18 +210,18 @@ wsl --mount <DiskPath>
 
 通过将 `<DiskPath>` 替换为物理磁盘所在的目录\文件路径，在所有 WSL2 发行版中附加和装载该磁盘。 请参阅[在 WSL 2 中装载 Linux 磁盘](https://learn.microsoft.com/zh-cn/windows/wsl/wsl2-mount-disk)。 选项包括：
 
-* `--vhd`：指定 `<Disk>` 引用虚拟硬盘。
-* `--name`：使用装入点的自定义名称装载磁盘
-* `--bare`：将磁盘附加到 WSL2，但不进行装载。
-* `--type <Filesystem>`：装载磁盘时使用的文件系统类型默认为 ext4（如果未指定）。 此命令也可输入为：`wsl --mount -t <Filesystem>`。可以使用 `blkid <BlockDevice>` 命令检测文件系统类型，例如：`blkid <dev/sdb1>`。
-* `--partition <Partition Number>`：要装载的分区的索引号默认为整个磁盘（如果未指定）。
-* `--options <MountOptions>`：装载磁盘时，可以包括一些特定于文件系统的选项。 例如，`wsl --mount -o "data-ordered"` 或 `wsl --mount -o "data=writeback` 之类的 [ext4 装载选项](https://www.kernel.org/doc/Documentation/filesystems/ext4.txt)。 但是，目前仅支持特定于文件系统的选项。 不支持通用选项，例如 `ro`、`rw` 或 `noatime`。
+- `--vhd`：指定 `<Disk>` 引用虚拟硬盘。
+- `--name`：使用装入点的自定义名称装载磁盘
+- `--bare`：将磁盘附加到 WSL2，但不进行装载。
+- `--type <Filesystem>`：装载磁盘时使用的文件系统类型默认为 ext4（如果未指定）。 此命令也可输入为：`wsl --mount -t <Filesystem>`。可以使用 `blkid <BlockDevice>` 命令检测文件系统类型，例如：`blkid <dev/sdb1>`。
+- `--partition <Partition Number>`：要装载的分区的索引号默认为整个磁盘（如果未指定）。
+- `--options <MountOptions>`：装载磁盘时，可以包括一些特定于文件系统的选项。 例如，`wsl --mount -o "data-ordered"` 或 `wsl --mount -o "data=writeback` 之类的 [ext4 装载选项](https://www.kernel.org/doc/Documentation/filesystems/ext4.txt)。 但是，目前仅支持特定于文件系统的选项。 不支持通用选项，例如 `ro`、`rw` 或 `noatime`。
 
 **备注**
 
 如果你正在运行 32 位进程来访问 wsl.exe（一种 64 位工具），那么你可能需要按如下方式运行此命令：`C:\Windows\Sysnative\wsl.exe --command`。
 
-#  卸载磁盘
+# 卸载磁盘
 
 ```PowerShell
 wsl --unmount <DiskPath>
@@ -229,7 +229,7 @@ wsl --unmount <DiskPath>
 
 卸载磁盘路径中给定的磁盘，如果未提供磁盘路径，则此命令将卸载并分离所有已装载的磁盘。
 
-#  已弃用的 WSL 命令
+# 已弃用的 WSL 命令
 
 ```PowerShell
 wslconfig.exe [Argument] [Options]
@@ -244,4 +244,3 @@ lxrun /[Argument]
 ```
 
 这些命令是用于配置随 WSL 安装的 Linux 发行版的原始 wsl 语法，但已替换为 `wsl` 或 `wsl.exe` 命令语法。
-

@@ -2,20 +2,20 @@
 
 拿到备份的`finedb`用`dbeaver`连接，修改`fine_conf_entity`表的以下配置：
 
-| 配置项名称                                            | 值/作用                                                                                 |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| FineClusterConfig.params.cluster                     | 集群状态，`true`：开启，`false`：关闭                                                                |
-| ResourceModuleConfig.repositoryName                  | 资源配置的仓库名值，连接ftp/sftp的话值固定为DECISION_FTP/DECISION_SFTP，否则为LOCAL_ENV <br>单机可直接删除该项 |
-| ResourceModuleConfig.repositoryNameOnboot            | 为空                                                                                   |
-| ResourceModuleConfig.sharedRepository                | 为空                                                                                   |
-| StateServerConfig.clusterMode                        | 状态服务器是否开启：`true`：开启，`false`：关 <br>单机下改为false                                         |
-| StateServerConfig.type                               | 状态服务器连接类型：redis                                                                      |
-| SystemOptimizationConfig.biClusterMasterNodeHostName |                                                                                      |
-| SystemOptimizationConfig.ClientMasterId              |                                                                                      |
-| hotBackConf.master                                   |                                                                                      |
-| hotBackConf.slave                                    |                                                                                      |
+| 配置项名称                                           | 值/作用                                                                                                            |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| FineClusterConfig.params.cluster                     | 集群状态，`true`：开启，`false`：关闭                                                                              |
+| ResourceModuleConfig.repositoryName                  | 资源配置的仓库名值，连接 ftp/sftp 的话值固定为 DECISION_FTP/DECISION_SFTP，否则为 LOCAL_ENV <br>单机可直接删除该项 |
+| ResourceModuleConfig.repositoryNameOnboot            | 为空                                                                                                               |
+| ResourceModuleConfig.sharedRepository                | 为空                                                                                                               |
+| StateServerConfig.clusterMode                        | 状态服务器是否开启：`true`：开启，`false`：关 <br>单机下改为 false                                                 |
+| StateServerConfig.type                               | 状态服务器连接类型：redis                                                                                          |
+| SystemOptimizationConfig.biClusterMasterNodeHostName |                                                                                                                    |
+| SystemOptimizationConfig.ClientMasterId              |                                                                                                                    |
+| hotBackConf.master                                   |                                                                                                                    |
+| hotBackConf.slave                                    |                                                                                                                    |
 
-可直接执行sql：
+可直接执行 sql：
 
 ```sql
 update FINE_CONF_ENTITY SET value='false' WHERE id = 'FineClusterConfig.params.cluster';

@@ -1,9 +1,15 @@
-- [FanRuan](fanruan/index.md)
+- <strong><span style="font-size:20px">Application</span></strong>
+  - [systemd 安装与使用](linux/systemd_install_and_service_exmaple.md)
+- <strong><span style="font-size:20px">Linux</span></strong>
+  - [systemd 安装与使用](linux/systemd_install_and_service_exmaple.md)
+  - [systemd 基本命令](linux/systemd_command.md)
+  - [rsync 实现备份](linux/rsync_backup.md)
+- <strong><span style="font-size:20px">Windows</span></strong>
+  - [WSL 基础](windows/wsl_base.md)
+  - [WSL 中的 systemd](windows/systemd_in_wsl.md)
+  - [Win11 右键显示更多选项设置](windows/show_more_in_win11_right_click.md)
+- <strong><span style="font-size:20px">FanRuan</span></strong>
   - [重置管理员](fanruan/reset_admmin.md)
   - [重置登录页](fanruan/reset_login_page.md)
   - [BI5 集群切换单机](fanruan/BI5_cluster2single.md)
   - [FR-JS](fanruan/FR-JS.md)
-- [Windows](windows/index.md)
-  - [WSL 基础](windows/wsl_base.md)
-  - [WSL 中的systemd](windows/systemd_in_wsl.md)
-  - [Win11右键显示更多选项设置](windows/show_more_in_win11_right_click.md)

@@ -1,4 +1,4 @@
-# WSL中的systemd
+# WSL 中的 systemd
 
 适用于 Linux 的 Windows 子系统 (WSL) 现在支持 systemd，它是许多常用的 Linux 发行版（例如 Ubuntu、Debian 等）使用的 init 系统和服务管理器。 （[什么是 systemd？](https://learn.microsoft.com/zh-cn/windows/wsl/systemd#what-is-systemd-in-linux)）。
 
@@ -24,7 +24,7 @@ Systemd 现在是将使用[`wsl --install`](https://learn.microsoft.com/zh-cn/wi
 
 在`wsl.conf`文件中添加以下行，你现在已打开此文件来更改用于 systemd 的 init：
 
-```Plain&#x20;Text
+```Plain Text
 [boot]
 systemd=true
 ```
