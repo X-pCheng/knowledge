@@ -26,6 +26,7 @@
     - [Shell 函数](main/Shell入门/Shell函数)
     - [Shell 工具(重要)](<main/Shell入门/Shell工具(重要).md>)
   - [快乐的 Linux 命令行](<main/快乐的 Linux 命令行.md>)
+  - [利用 Python 进行数据分析](<main/data_ana_by_py.md>)
 - <strong><span style="font-size:18px">应用相关</span></strong>
   - [Affine](main/Affine.md)
   - [appflowy](main/appflowy.md)
