@@ -24,8 +24,8 @@ log_file="${backup_root}/backup.log" # 日志文件路径
 
 # 备份信息数组：备份Key、源主机、源目录、SSH参数、排除文件
 backup_directories=(
-    "alinode1|xpcheng.tech|/opt/program/|ssh -l root -p 22|exclude_alinode1.txt"  # alinode1备份信息
-    "debian|xpcheng.tech|/home/xpcheng/docker-data/|ssh -l root -p 33022|exclude_debian.txt"  # debian备份信息
+    "alinode1|xxx.tech|/opt/program/|ssh -l root -p 22|exclude_alinode1.txt"  # alinode1备份信息
+    "debian|xxx.tech|/home/xpcheng/docker-data/|ssh -l root -p 33022|exclude_debian.txt"  # debian备份信息
 )
 days_to_keep=30  # 保留备份天数
 

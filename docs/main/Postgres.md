@@ -28,3 +28,7 @@ docker run -d \
 -e POSTGRES_PASSWORD=1025 \
 postgres:12.3
 ```
+
+# psql 基本操作
+
+[psql 基本操作](main/psql基本操作.md)
