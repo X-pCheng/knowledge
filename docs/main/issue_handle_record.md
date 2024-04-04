@@ -1,13 +1,14 @@
 # Hologres除法报错
 
 背景是从mysql迁移脚本到Hologres，因为除数为0时不会报错而是返回`null`
-但是Hologres会报错，不无法运行
+
+但是Hologres会报错，无法运行
 
 针对这个问题，Hologres提供了一个解决方案
 
 [MySQL至Hologres语句、函数的区别](https://help.aliyun.com/zh/hologres/user-guide/migrate-data-from-mysql-to-hologres?spm=a2c3c.ALYWebVC.0.0&shareId=12c40ceea3340709f65277782b7a49ec)
 
-主要就是说MySQL数据平滑迁移至Hologres，迁移完成后MySQL与Hologres查询语句与函数的使用区别
+主要说明MySQL数据平滑迁移至Hologres，迁移完成后MySQL与Hologres查询语句与函数的使用区别
 
 # DBeaver UE破解验证分析
 吾爱破解论坛的源码解析[DBeaver UE破解验证分析](https://www.52pojie.cn/thread-1668629-1-1.html)
@@ -15,7 +16,7 @@
 # PD16.5数据建模下载
 [地址](https://www.fujieace.com/software/powerdesigner.html)
 
-# 通过js让浏览器页面进入可编辑状态
+# 通过JS让浏览器页面进入可编辑状态
 主要是为了跳过一下网页在复制的时候需要你登录的场景，进入编辑状态后直接`Ctrl+X`进行剪切，可以绕开登陆
 
 ```javascript
