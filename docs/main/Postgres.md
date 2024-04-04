@@ -1,5 +1,3 @@
-# Postgres
-
 [PostgreSQL Downloads](https://www.postgresql.org/download/)
 
 # Docker

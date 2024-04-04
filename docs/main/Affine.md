@@ -2,7 +2,7 @@
 
 参考 [Run AFFiNE with Custom Options](https://docs.affine.pro/docs/self-host-affine/run-affine-with-custom-options)
 
-# Docker
+## Docker
 
 ```bash
 docker stop affine

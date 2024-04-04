@@ -17,6 +17,10 @@ mysql:8.3.0
 
 ```
 
+# 基本命令
+
+参见 [MySQL 配置与操作](main/MySQL配置与操作.md)
+
 # FAQ
 
 ## 连接时报错：Public Key Retrieval is not allowed

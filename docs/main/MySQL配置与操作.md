@@ -1,3 +1,4 @@
+安装好 [MySQL](main/MySQL.md) 后进一步做基本配置，创建库与用户等 
 # 保护 MySQL 数据库
 
 MySQL 数据库包安装完成后，mysql-secure-installation 实用程序将自动启动。但是，如果你没有自动启动，可执行以下命令：

@@ -1,5 +1,3 @@
-# Atheos
-
 Atheos 是 Codiad 的一个更新且当前维护的分支，Codiad 是一个基于 Web 的 IDE 框架，占用空间小且要求最低。
 
 Codiad 的构建考虑到了简单性，允许快速、交互式开发，而无需某些大型桌面编辑器的大量开销。话虽如此，即使是 Eclipse、NetBeans 和 Aptana 等 IDE 的用户也发现 Codiad 的简单性带来了巨大的好处。虽然简单性是关键，但我们并没有吝惜功能，并且有一个专门的开发团队积极添加更多功能。
@@ -44,7 +42,7 @@ sudo vim /home/xpcheng/docker-data/atheos/traits/i18n.php
 
 ![alt text](../_attch_file/atheos1.png)
 
-替换中文映射文件/home/xpcheng/docker-data/atheos/languages/cn.json 为 [Atheos中文配置映射](application/atheos_lang_cn_map.md)
+替换中文映射文件/home/xpcheng/docker-data/atheos/languages/cn.json 为 [Atheos 中文配置映射](main/atheos_lang_cn_map.md)
 
 ```bash
 sudo rm -rf /home/xpcheng/docker-data/atheos/languages/cn.json

@@ -1,5 +1,3 @@
-# Redis
-
 # Docker
 
 ```bash

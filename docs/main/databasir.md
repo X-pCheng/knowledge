@@ -1,5 +1,3 @@
-# databasir
-
 默认账号:
 `databasir/databasir`
 
@@ -7,7 +5,7 @@
 
 # 准备数据库 MySQL
 
-创建库和用户参见 [MySQL 配置与操作](application/MySQL配置与操作.md)
+创建库和用户参见 [MySQL 配置与操作](main/MySQL配置与操作.md)
 
 # Docker 部署
 

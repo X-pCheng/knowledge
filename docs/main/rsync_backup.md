@@ -44,7 +44,7 @@ Alinode1 是阿里云服务器，类 Centos 系统，创建密钥的过程和 NA
 
 这个是一个脚本示例，请根据自身环境做调整。
 
-[rsync 示例](linux/rsync_backup_example.md)
+[rsync 示例](main/rsync_backup_example.md)
 
 # cron 配置调度
 

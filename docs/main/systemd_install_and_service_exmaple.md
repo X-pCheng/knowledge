@@ -51,7 +51,7 @@ systemctl daemon-reload
 
 
 # 使用 systemd 管理服务
-[systemd基本命令](linux/systemd_command.md)
+[systemd基本命令](main/systemd_command.md)
  
 
 # 设置开机自启动

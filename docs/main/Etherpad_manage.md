@@ -1,12 +1,12 @@
-# Etherpad_manage
+# Web 笔记管理页面
 
 Github：[manage-etherpad](https://github.com/X-pCheng/manage-etherpad)
 
-这是一个基于 flask、bootstrap（UI 登录页）、layui（管理页面）整合的 前台管理页面，并可打包成 Docker 镜像。
+这是一个基于 flask、bootstrap（UI 登录页）、layui（管理页面）整合的 Web 笔记管理前台页面，并可打包成 Docker 镜像部署。
 
 这个管理页面没有权限的概念，支持管理的 Etherpad 也仅仅为独立 pad，并不涉及到组和用户，所以主要为单用户（管理员）使用，支持的功有登录、登出、查询、新建、编辑、删除。
 
-# 配置
+## 配置
 
 目录`/app/app.py`是启动脚本。
 
@@ -30,7 +30,7 @@ Config = {
 }
 ```
 
-# Docker 打包并启动
+## Docker 打包并启动
 
 进入 Dockerfile 所在目录，执行
 
@@ -45,7 +45,7 @@ docker run -d \
 <你的名称>/manage_etherpad
 ```
 
-# 配置挂载
+## 配置挂载
 
 可以提前将配置文件挂载，docker run 时设置挂载位置（这样启动后不会报错说找不到文件）
 
