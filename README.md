@@ -1,5 +1,5 @@
-# Welcome XpChengBlog
+# XpChengBlog
 
-This is a documentation site about knowledge.
-
-Wish you have a good day!
+> A documentation site about knowledge.
+>
+> Wish you have a good day!
