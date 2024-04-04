@@ -61,4 +61,4 @@ split -1000 test.log
 [Certbot 证书续期](main/certbot_ssl_renewal.md)
 
 # Tomcat9配置SSL证书
-[Tomcat9 配置 SSL 证书](main/tomcat9_config_ssl.md)
+[Tomcat9 配置 SSL 证书](main/tomcat_config_ssl.md)
