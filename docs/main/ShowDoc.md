@@ -4,7 +4,7 @@
 
 # Docker
 
-```shellscript
+```bash
 sudo docker stop showdoc
 sudo docker rm showdoc
 
