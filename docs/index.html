@@ -116,5 +116,11 @@
 
     <!-- 如果文档里的 script 是内联脚本，可以直接执行；而如果是外链脚本（即 js 文件内容由 src 属性引入），则需要使用此插件。 -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+
+    <!-- pdf支持 -->
+    <!-- PDFObject.js is a required dependency of this plugin -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
+    <!-- use this if you are not hosting the file yourself -->
+    <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
   </body>
 </html>
