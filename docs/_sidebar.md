@@ -14,17 +14,7 @@
   - [BI5 集群切换单机](main/BI5_cluster2single.md)
   - [FR-JS](main/FR-JS.md)
 - <strong><span style="font-size:18px">书籍资源</span></strong>
-  - Shell 入门
-    - [Shell 概述](main/Shell入门/Shell概述.md)
-    - [Shell 脚本入门](main/Shell入门/Shell脚本入门.md)
-    - [Shell 中的变量](main/Shell入门/Shell中的变量.md)
-    - [运算符](main/Shell入门/运算符.md)
-    - [条件判断](main/Shell入门/条件判断.md)
-    - [流程控制](main/Shell入门/流程控制.md)
-    - [while 循环](main/Shell入门/while循环.md)
-    - [read 读取控制台输入](main/Shell入门/read读取控制台输入.md)
-    - [Shell 函数](main/Shell入门/Shell函数)
-    - [Shell 工具(重要)](<main/Shell入门/Shell工具(重要).md>)
+  - [Shell 入门](main/shell_introduction.md)
   - [快乐的 Linux 命令行](<main/快乐的 Linux 命令行.md>)
   - [利用 Python 进行数据分析](<main/data_ana_by_py.md>)
 - <strong><span style="font-size:18px">应用相关</span></strong>
