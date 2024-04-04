@@ -1,4 +1,4 @@
-- <strong><span style="font-size:18px">[小问题]</span></strong>(main/issue_handle_record.md)
+- [<strong><span style="font-size:18px">小问题</span></strong>](main/issue_handle_record.md)
 - <strong><span style="font-size:18px">Linux</span></strong>
   - [systemd 安装与使用](main/systemd_install_and_service_exmaple.md)
   - [systemd 基本命令](main/systemd_command.md)
