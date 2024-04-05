@@ -1,33 +1,33 @@
-- [<strong><span style="font-size:18px">小问题</span></strong>](main/issue_handle_record.md)
-- <strong><span style="font-size:18px">Linux</span></strong>
+- [<strong><span style="font-size:15px">小问题</span></strong>](main/issue_handle_record.md)
+- <strong><span style="font-size:15px">Linux</span></strong>
   - [systemd 安装与使用](main/systemd_install_and_service_exmaple.md)
   - [systemd 基本命令](main/systemd_command.md)
   - [rsync 实现备份](main/rsync_backup.md)
-- <strong><span style="font-size:18px">Windows</span></strong>
+- <strong><span style="font-size:15px">Windows</span></strong>
   - [WSL 基础](main/wsl_base.md)
   - [WSL 中的 systemd](main/systemd_in_wsl.md)
   - [Win11 右键显示更多选项设置](main/show_more_in_win11_right_click.md)
-- <strong><span style="font-size:18px">帆软相关</span></strong>
+- <strong><span style="font-size:15px">帆软相关</span></strong>
   - [FRBI 部署相关](main/FRBI.md)
   - [重置管理员](main/reset_admmin.md)
   - [重置登录页](main/reset_login_page.md)
   - [BI5 集群切换单机](main/BI5_cluster2single.md)
   - [FR-JS](main/FR-JS.md)
-- <strong><span style="font-size:18px">书籍资源</span></strong>
+- <strong><span style="font-size:15px">书籍资源</span></strong>
   - [命令行的艺术](main/The_Art_of_Command_Line.md)
   - [快乐的 Linux 命令行](<main/快乐的 Linux 命令行.md>)
   - [Shell 入门](main/shell_introduction.md)
   - [利用 Python 进行数据分析](main/data_ana_by_py.md)
   - [Learn Vim Zh Cn](main/Learn-Vim_zh_cn_the_smart_way.md)
-- <strong><span style="font-size:18px">应用相关</span></strong>
-  - [Clickhouse](main/clickhouse.md)
-  - [Docker 及其应用](main/Docker.md)
-  - [MySQL](main/MySQL.md)
-  - [JupyterLab](main/JupyterLab.md)
-  - [Nextcloud](main/Nextcloud.md)
+- <strong><span style="font-size:15px">应用相关</span></strong>
+  - [QNAP 威联通](main/QNAP.md)
+  - [Docker 及应用](main/Docker.md)
   - [Nginx](main/Nginx.md)
-  - [OnlyOffice](main/OnlyOffice.md)
-  - [Postgres](main/Postgres.md)
-  - [QNAP](main/QNAP.md)
   - [sun-panel](main/sun-panel.md)
+  - [Clickhouse](main/clickhouse.md)
+  - [MySQL](main/MySQL.md)
+  - [Postgres](main/Postgres.md)
+  - [OnlyOffice](main/OnlyOffice.md)
+  - [Nextcloud](main/Nextcloud.md)
+  - [JupyterLab](main/JupyterLab.md)
   - [trilium](main/trilium.md)

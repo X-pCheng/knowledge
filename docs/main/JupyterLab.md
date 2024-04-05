@@ -65,7 +65,7 @@ pip install jupyterlab-language-pack-zh-CN
 
 挂载目录的权限问题，修改用户组`chown xxx:xxx -R dir`
 
-# jupyterlab 日志 Uncaught exception GET /terminals/websocket/1
+## jupyterlab 日志 Uncaught exception GET /terminals/websocket/1
 
 nginx 代理 ws 问题，可参见：https://github.com/jupyter/notebook/issues/2664#issuecomment-346249652
 
