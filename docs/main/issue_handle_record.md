@@ -54,7 +54,7 @@ split -1000 test.log
 ```
 
 # Certbot 免费证书申请及续期
-参考文章[在这](https://juejin.cn/post/7205839782381928508)
+原文[在这](https://juejin.cn/post/7205839782381928508)
 ## 证书申请
 [Certbot 证书申请](main/certbot_ssl_get.md)
 ## 证书续期
