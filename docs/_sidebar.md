@@ -14,9 +14,11 @@
   - [BI5 集群切换单机](main/BI5_cluster2single.md)
   - [FR-JS](main/FR-JS.md)
 - <strong><span style="font-size:18px">书籍资源</span></strong>
-  - [Shell 入门](main/shell_introduction.md)
+  - [命令行的艺术](main/The_Art_of_Command_Line.md)
   - [快乐的 Linux 命令行](<main/快乐的 Linux 命令行.md>)
-  - [利用 Python 进行数据分析](<main/data_ana_by_py.md>)
+  - [Shell 入门](main/shell_introduction.md)
+  - [利用 Python 进行数据分析](main/data_ana_by_py.md)
+  - [Learn Vim Zh Cn](main/Learn-Vim_zh_cn_the_smart_way.md)
 - <strong><span style="font-size:18px">应用相关</span></strong>
   - [Affine](main/Affine.md)
   - [appflowy](main/appflowy.md)
