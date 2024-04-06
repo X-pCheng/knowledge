@@ -5,4 +5,4 @@
 > Wish you have a good day!
 
 
-Build by docsify, `docs` is the root dir of doc.
+Build by docsify, `docs` is the root dir of this document.
