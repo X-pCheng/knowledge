@@ -218,34 +218,43 @@ if (this.getValue()) {
 
 ```javascript
 "<table style='background:#043856;border-radius:6px;border-left-width:0px;'" +
-"               width=100% height=3px cellspacing=0 cellpadding=5>" +
-"   <tr>" +
-"       <!-- x>=0时绘制第一个td，否则第一个td为空即可 -->" +
-"       <!-- x<=1时绘制第二个td，否则第二个td为空即可 -->" +
-"       <!-- 上述实际针对的是x无数据的情况 -->" +
-"       <td style='background: linear-gradient(to right, #45c45e, #17e641);border-radius: 8px;'" +
-"               width='" + A1 * 100 + "%'>" +
-"       </td>" +
-" </tr>" +
-"</table>"
+  "               width=100% height=3px cellspacing=0 cellpadding=5>" +
+  "   <tr>" +
+  "       <!-- x>=0时绘制第一个td，否则第一个td为空即可 -->" +
+  "       <!-- x<=1时绘制第二个td，否则第二个td为空即可 -->" +
+  "       <!-- 上述实际针对的是x无数据的情况 -->" +
+  "       <td style='background: linear-gradient(to right, #45c45e, #17e641);border-radius: 8px;'" +
+  "               width='" +
+  A1 * 100 +
+  "%'>" +
+  "       </td>" +
+  " </tr>" +
+  "</table>";
 ```
 
 2. 在帆软设计器中假设，A1=-0.3，则 A2 中用 A1 设置进度条
 
 ```javascript
 "<table style='background:#043856;border-radius:6px;border-left-width:0px;'" +
-"               width=100% height=3px cellspacing=0 cellpadding=5>" +
-"   <tr>" +
-"       <!-- x>=0时绘制第一个td，否则第一个td为空即可 -->" +
-"       <!-- x<=1时绘制第二个td，否则第二个td为空即可 -->" +
-"       <!-- 上述实际针对的是x无数据的情况 -->" +
-"       <td style='background: linear-gradient(to right, #043856, #043856);border-radius: 8px;'" +
-"               width='" + (1-A1) * 100 + "%'>" +
-"       </td>" +
-" </tr>" +
-"</table>"
+  "               width=100% height=3px cellspacing=0 cellpadding=5>" +
+  "   <tr>" +
+  "       <!-- x>=0时绘制第一个td，否则第一个td为空即可 -->" +
+  "       <!-- x<=1时绘制第二个td，否则第二个td为空即可 -->" +
+  "       <!-- 上述实际针对的是x无数据的情况 -->" +
+  "       <td style='background: linear-gradient(to right, #043856, #043856);border-radius: 8px;'" +
+  "               width='" +
+  (1 - A1) * 100 +
+  "%'>" +
+  "       </td>" +
+  " </tr>" +
+  "</table>";
 ```
 
+```javascript
+<meter min="0" max="100" low="60" high="80" optimum="60,80" value="84"></meter>
+```
+
+或者用 progress
 
 # FR-通过 display 属性实现折叠树
 
@@ -298,7 +307,7 @@ if (nodeList.length != 0) {
     var style = (nodeList[i].parentElement.style.display = flag);
   }
 }
-````
+```
 
 # FR-编辑后强制弹窗并提交
 
